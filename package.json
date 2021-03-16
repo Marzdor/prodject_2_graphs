@@ -2,7 +2,7 @@
   "name": "project_2_graphs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marzdor.github.io/project_2_graphs",
+  "homepage": "https://marzdor.github.io/prodject_2_graphs/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
