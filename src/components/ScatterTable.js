@@ -42,6 +42,12 @@ const ScatterTable = ({ data1, data2 }) => {
           dataKey="students_per_teacher"
           name="students_per_teacher"
           stroke="#8884d8"
+          label={{
+            value: "students_per_teacher",
+            position: "left",
+            offset: 0,
+            angle: -90,
+          }}
         />
         <YAxis
           yAxisId="right"
@@ -51,6 +57,12 @@ const ScatterTable = ({ data1, data2 }) => {
           unit="$"
           orientation="right"
           stroke="#82ca9d"
+          label={{
+            value: "average_spent_per_student",
+            position: "right",
+            offset: 0,
+            angle: -90,
+          }}
         />
         <Tooltip cursor={{ strokeDasharray: "3 3" }} />
         <Scatter yAxisId="left" name="A school" data={data2} fill="#8884d8" />
