@@ -100,6 +100,6 @@ export const createNumericalChartData = (data) => {
   });
 
   return dataAverages.sort((a, b) => {
-    return a.students_per_teacher - b.students_per_teacher;
+    return a.average_teacher - b.average_teacher;
   });
 };
